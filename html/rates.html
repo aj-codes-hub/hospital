@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/rates.css">
+     <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap" rel="stylesheet">
+    
+    <!-- country flag NPM -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
+
+    <!-- font awesome  CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>rates page</title>
+</head>
+<body>
+
+      <div class="sub-header">
+        <i class="fa-solid fa-phone"></i><p>070-3665090</p>
+        <h6>e-consultation via portal</h6>
+      </div>
+    <header>
+       <div class="navbar">
+        <div class="logo">
+            <img src="../images/logo.png" alt="">
+        </div>
+        <div class="nav-menu">
+           <a href="index.html">home</a>
+           <a href="staf.html">staff</a>
+           <a href="" class="active">rates</a>
+           <a href="pratical_information.html">practical information</a>
+           <a href="contact.html">contact</a>
+        </div>
+        <div class="select-language">
+            <button class="dropbtn" onclick="toggleDropdown()">select language <i class="fa-solid fa-angle-down"></i></button>
+            <div class="dropdown-content" id="dropdown-content">
+                <a href="#"><span class="fi fi-pk"></span> Urdu</a>
+                <a href="#"><span class="fi fi-in"></span> handhi</a>
+                <a href="#"><span class="fi fi-us"></span> English</a>
+                <a href="#"><span class="fi fi-cn"></span> Chinese</a>
+                <a href="#"><span class="fi fi-es"></span> Spanish</a>
+            </div>
+        </div>
+        <div class="switch-button">
+          <label class="switch">
+            <input type="checkbox" >
+            <span class="slider"></span>
+          </label>
+        </div>
+         <div id="mainMenu" class="nav-dropdown-menu w-0">
+          <a href="index.html">home</a>
+         <a href="staff.html">staff</a>
+         <a href="rates.html">rates</a>
+         <a href="pratical_information.html">information</a>
+         <a href="contact.html">Contact</a>
+        </div>
+         <button id="mainMenuBtn" class="nav-dropdown-menu-btn">
+          ☰
+        </button>
+        
+       </div>
+    </header>
+    
+    <div class="hero-container">
+      <div class="hero-inner">
+         <div class="hero-image">
+             <img src="../images/80.png" alt="">
+         </div>
+         <div class="hero-text">
+          <div class="hero-text-card">
+            <h3>Establishment of rates</h3>
+            <p>All general practitioners in the Netherlands use the same rates. The Dutch 
+               Healthcare Authority (NZa) has established these general practitioner      
+               rates. These are maximum rates, so a general practitioner may never       
+               exceed them. The rates are often sent directly to your health insurer. In  
+               principle, you will never have to deal with them. You can find the rates in
+               the online 'my environment' of your health insurer.</p>
+          </div>
+         </div>
+      </div>
+    </div>  
+
+    <div class="prices-container">
+      <div class="prices-inner">
+        <table>
+          <tr class="bg-main-blue">
+            <th class="align-left">Prestatiebeschrijving</th>
+            <th>Maximumtarief </th>
+          </tr>
+          <tr>
+            <td >Consult passant korter dan 5 minuten</td>
+            <td class="align-center">€ 15,93</td>
+          </tr>
+          <tr>
+            <td>Consult passant vanaf 5 minuten tot 20 minuten</td>
+            <td class="align-center">€ 31,86</td>
+          </tr>
+          <tr>
+            <td>Consult passant 20 minuten en langer</td>
+            <td class="align-center">€63,72</td>
+          </tr>
+          <tr>
+            <td>Visite passant korter dan 20 minuten</td>
+            <td class="align-center">€ 47,79</td>
+          </tr>
+          <tr>
+            <td>Visite passant 20 minuten en langer</td>
+            <td class="align-center">€ 79,65</td>
+          </tr>
+           <tr>
+            <td>Vaccinatie passant</td>
+            <td class="align-center">€ 15,93</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+   
+    <footer>
+    <div class="footer-main">
+    <div class="footer-logo">
+      <img src="../images/logo.png" alt="">
+    </div>
+    <div class="footer-contect-details">
+       <table>
+        <tr><th>Contact details</th></tr>
+        <tr><td><i class="fa-solid fa-envelope-circle-check"></i> Email us via Patient Portal</td></tr>
+        <tr><td><i class="fa-solid fa-phone"></i> 070-366 5090 (press 1 in case of emergency)</td></tr>
+        <tr><td><i class="fa-solid fa-mobile-retro"></i> 070-329 4045 fax</td></tr>
+       </table>
+    </div>
+    <div class="footer-useful-links">
+       <table>
+        <tr><th>Useful links</th></tr>
+        <tr><td><a href="#">Home doctor</a></td></tr>
+        <tr><td><a href="#">Should I go to the doctor?</a></td></tr>
+        <tr><td><a href="#">RIVM</a></td></tr>
+        <tr><td><a href="#">Positive health</a></td></tr>
+        <tr><td><a href="#">Drive safely with medication</a></td></tr>
+        <tr><td><a href="#">Flu vaccinations</a></td></tr>
+        <tr><td><a href="#">Information about medicines</a></td></tr>
+        <tr><td><a href="#">Last stage of life</a></td></tr>
+         <tr><td><a href="#">Help with dementia</a></td></tr>
+       </table>
+    </div>
+    <div class="footer-latest-news bg-secondary-blue">
+         <label>Latest news</label>
+         <ul>
+          <li style="list-style: none;"> via ThuisArts.nl</li>
+          <li>Health testing can have drawbacks</li>
+          <li>Think carefully about whether you want to take a health test.</li>
+          <li>Tick ​​removed from your skin? Pay attention to this</li>
+          <li>A tick in your skin gives you a small chance of getting a disease. Pay close attention in the first 3 months if you get a spot or ring on your skin.</li>
+          <li>Your child has spots. Could it be measles?</li>
+          <li>With chickenpox, fifth disease or another childhood illness your child may get spots. If your child has had shots, it is probably not measles.</li>
+         </ul>
+    </div>
+    </div>
+    <div class="footer-end">
+    <div class="copy-right">
+      <p>© Copyright 2025 | Praktijk.nl | Websites & E-health for GPs</p>
+
+      <p>privacy Policy  |  Complaints Procedure (SKGE)</p>
+    </div>
+    </div>
+    </footer>
+    <script src="../javaScript/script.js"></script>
+</body>
+</html>

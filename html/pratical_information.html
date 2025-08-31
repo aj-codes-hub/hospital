@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pratical_information.css">
+     <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap" rel="stylesheet">
+    
+    <!-- country flag NPM -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
+
+    <!-- font awesome  CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Pratical information</title>
+</head>
+<body>
+
+      <div class="sub-header">
+        <i class="fa-solid fa-phone"></i><p>070-3665090</p>
+        <h6>e-consultation via portal</h6>
+      </div>
+    <header>
+       <div class="navbar">
+        <div class="logo">
+            <img src="../images/logo.png" alt="">
+        </div>
+        <div class="nav-menu">
+           <a href="index.html">home</a>
+           <a href="staf.html">staff</a>
+           <a href="rates.html">rates</a>
+           <a href="" class="active">practical information</a>
+           <a href="contact.html">contact</a>
+        </div>
+        <div class="select-language">
+            <button class="dropbtn" onclick="toggleDropdown()">select language <i class="fa-solid fa-angle-down"></i></button>
+            <div class="dropdown-content" id="dropdown-content">
+                <a href="#"><span class="fi fi-pk"></span> Urdu</a>
+                <a href="#"><span class="fi fi-in"></span> handhi</a>
+                <a href="#"><span class="fi fi-us"></span> English</a>
+                <a href="#"><span class="fi fi-cn"></span> Chinese</a>
+                <a href="#"><span class="fi fi-es"></span> Spanish</a>
+            </div>
+        </div>
+        <div class="switch-button">
+          <label class="switch">
+            <input type="checkbox" >
+            <span class="slider"></span>
+          </label>
+        </div>
+         <div id="mainMenu" class="nav-dropdown-menu w-0">
+          <a href="index.html">home</a>
+         <a href="staff.html">staff</a>
+         <a href="rates.html">rates</a>
+         <a href="pratical_information.html">information</a>
+         <a href="contact.html">Contact</a>
+        </div>
+         <button id="mainMenuBtn" class="nav-dropdown-menu-btn">
+          ☰
+        </button>
+        
+       </div>
+    </header>
+
+    <div class="hero">
+      <h1>Practical information</h1>
+    </div>
+
+     <div style="width: 100vw; height: 10vh;"></div>
+
+    <div class="info-container">
+
+      <div class="inner-information">
+        <div class="info-heading">
+          <h2>Office hours</h2>
+          <p>The practice is open all year round, except for holidays. Because we work with a team of permanent doctors, one of
+             the permanent doctors will always be present.</p>
+        </div>
+        <div class="info-contant">
+           <div class="info-conatant-image">
+              <img src="../images/8.png" alt="">
+           </div>
+           <div class="info-conatant-text">
+
+                <div class="main-info-container">
+
+                  <button onclick="openInfo1()" class="info-container-dropdown-btn">
+                    <h3>Office hours</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                  <div id="contant-1" class="info-container-dropdown-contant contant-1">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is 
+                         possible all day long, except between 12:00 and 13:00. 
+                         However, if you would like an appointment for the same 
+                         day, please call between 8:00 and 10:00. If medically 
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, 
+                         please call the assistant as soon as possible. If you do
+                         not cancel the appointment in time (at least 24 hours in 
+                         advance), costs may be charged for this.</p>
+                  </div>
+                  
+
+                   <button onclick="openInfo2()" class="info-container-dropdown-btn">
+                    <h3>Telephone accessibility / consultation <br> hours</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+
+                  <div id="contant-2"  class="info-container-dropdown-contant contant-2">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                   <button onclick="openInfo3()" class="info-container-dropdown-btn">
+                    <h3>Need more time?</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                  <div id="contant-3" class="info-container-dropdown-contant contant-3">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                   <button onclick="openInfo4()" class="info-container-dropdown-btn">
+                    <h3>Home visit</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                  <div id="contant-4" class="info-container-dropdown-contant contant-4">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                   <button onclick="openInfo5()" class="info-container-dropdown-btn">
+                    <h3>Emergencies</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                  <div id="contant-5" class="info-container-dropdown-contant contant-5">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                   <button onclick="openInfo6()" class="info-container-dropdown-btn">
+                    <h3>Evening, Night and Weekend <br> Service (ANW)</h3>  <i class="fa-solid fa-angle-down"></i>
+                   </button>
+                  <div id="contant-6" class="info-container-dropdown-contant contant-6">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                </div>
+           </div>
+        </div>
+      </div>
+
+      <div class="inner-information">
+        <div class="info-heading">
+          <h2>Practical information</h2>
+        </div>
+        <div class="info-contant">
+           <div class="info-conatant-text">
+
+                <div class="main-info-container">
+
+                  <button onclick="openInfo1()" class="info-container-dropdown-btn">
+                    <h3>Office hours</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                  <div id="contant-1" class="info-container-dropdown-contant contant-1">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is 
+                         possible all day long, except between 12:00 and 13:00. 
+                         However, if you would like an appointment for the same
+                         day, please call between 8:00 and 10:00. If medically 
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead,
+                         please call the assistant as soon as possible. If you do 
+                         not cancel the appointment in time (at least 24 hours in 
+                         advance), costs may be charged for this.</p>
+                  </div>
+                  
+
+                   <button onclick="openInfo2()" class="info-container-dropdown-btn">
+                    <h3>Telephone accessibility / consultation <br> hours</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+
+                  <div id="contant-2"  class="info-container-dropdown-contant contant-2">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                   <button onclick="openInfo3()" class="info-container-dropdown-btn">
+                    <h3>Need more time?</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                  <div id="contant-3" class="info-container-dropdown-contant contant-3">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                   <button onclick="openInfo4()" class="info-container-dropdown-btn">
+                    <h3>Home visit</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                  <div id="contant-4" class="info-container-dropdown-contant contant-4">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                   <button onclick="openInfo5()" class="info-container-dropdown-btn">
+                    <h3>Emergencies</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                  <div id="contant-5" class="info-container-dropdown-contant contant-5">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                   <button onclick="openInfo6()" class="info-container-dropdown-btn">
+                    <h3>Evening, Night and Weekend <br> Service (ANW)</h3>  <i class="fa-solid fa-angle-down"></i>
+                   </button>
+                  <div id="contant-6" class="info-container-dropdown-contant contant-6">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                </div>
+           </div>
+            <div class="info-conatant-image">
+              <img src="../images/8.png" alt="">
+           </div>
+        </div>
+      </div>
+ 
+      <div class="inner-information">
+        <div class="info-heading">
+          <h2>Useful (medical) topics</h2>
+        </div>
+        <div class="info-contant">
+           <div class="info-conatant-image">
+              <img src="../images/8.png" alt="">
+           </div>
+           <div class="info-conatant-text">
+
+                <div class="main-info-container">
+
+                  <button onclick="openInfo1()" class="info-container-dropdown-btn">
+                    <h3>Office hours</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                  <div id="contant-1" class="info-container-dropdown-contant contant-1">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+                  
+
+                   <button onclick="openInfo2()" class="info-container-dropdown-btn">
+                    <h3>Telephone accessibility / consultation <br> hours</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+
+                  <div id="contant-2"  class="info-container-dropdown-contant contant-2">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                   <button onclick="openInfo3()" class="info-container-dropdown-btn">
+                    <h3>Need more time?</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                  <div id="contant-3" class="info-container-dropdown-contant contant-3">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                   <button onclick="openInfo4()" class="info-container-dropdown-btn">
+                    <h3>Home visit</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                  <div id="contant-4" class="info-container-dropdown-contant contant-4">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                   <button onclick="openInfo5()" class="info-container-dropdown-btn">
+                    <h3>Emergencies</h3>  <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                  <div id="contant-5" class="info-container-dropdown-contant contant-5">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                   <button onclick="openInfo6()" class="info-container-dropdown-btn">
+                    <h3>Evening, Night and Weekend <br> Service (ANW)</h3>  <i class="fa-solid fa-angle-down"></i>
+                   </button>
+                  <div id="contant-6" class="info-container-dropdown-contant contant-6">
+                      <h4>070-366 5090 option 3</h4>
+                      <p>Calling to make an appointment and request visits is <br>
+                         possible all day long, except between 12:00 and 13:00. <br>
+                         However, if you would like an appointment for the same <br>
+                         day, please call between 8:00 and 10:00. If medically <br>
+                         necessary, you will be seen the same day.</p>
+                      <h4>Cancelling an appointment</h4>
+                      <p>If a previously made appointment cannot go ahead, <br>
+                         please call the assistant as soon as possible. If you do <br>
+                         not cancel the appointment in time (at least 24 hours in <br>
+                         advance), costs may be charged for this.</p>
+                  </div>
+
+                </div>
+           </div>
+        </div>
+      </div>
+
+      <div class="de-pramtijk-container">
+         <div class="de-pramtijk-inner">
+
+            <div class="de-pramtijk-header">
+                <div class="de-pramtijk-heading"> <h2> The Practice of Internists </h2> </div>
+                <div class="de-pramtijk-logo"><img src="../images/logo4.png" alt=""></div>
+            </div>
+
+            <div class="de-pramtijk-contant">
+               <div class="de-pramtijk-image"><img src="../images/11.png" alt=""></div>
+               <div class="de-pramtijk-text">
+                  <div style="margin-left: auto; margin-right: auto;width: 92%;">
+                  <p>The Internists Practice is a small-scale independent practice that 
+                     provides specialist medical care in the field of Internal Medicine. 
+                     The patient is our central focus and we do this by giving personal
+                     attention to the patient with an eye for the person behind the
+                     medical complaints and symptom</p>
+
+                  <p>The internist from De Praktijk Internisten holds consultations in
+                     your own GP practice, close by and familiar. This also makes it
+                     very easy to consult with your GP and practice assistant.</p>
+                 
+                  <p>Internist D. Creemers has a biweekly consultation hour on
+                     Thursday morning at Praktijk Berestein. You can come here for all
+                     your health problems in the field of internism.</p>
+
+                  </div>
+
+                     <div class="find-info">
+                        <p>
+                           <span style="word-spacing: 15px;">You can find more information about us on our</span> <br>
+                           website:  www.depraktijkinternisten.nl
+                        </p>
+                        <p>
+                           For questions about your appointment with the internist, you can call <br>
+                           070-2230038 or email  info@depraktijkinternisten.nl
+                        </p>
+                        
+                     </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+      <div class="Complaints-container">
+         <div class="Complaints-inner">
+               <h2>Complaints Procedure</h2>
+            <div class="Complaints-contant">
+               <div class="Complaints-text">
+                  <p>As a GP practice, we want to perform our work as professionally    
+                     as possible and we believe it is important that you trust us. Of   
+                     course, it may happen that you do not have a good feeling about    
+                     the contact with our practice. For example, you may feel that you  
+                     have not been taken seriously or that you have not been able to    
+                     reach the practice properly. We would like to know about this as   
+                     soon as possible, so that we can discuss this with you and learn   
+                     from it.
+                     Youcan submit your complaint or comment by contacting one of our   
+                     employees directly. One of our employees will then process your    
+                     complaint as soon as possible.</p>
+               </div>
+               <div class="Complaints-image">
+                  <img src="../images/12.png" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+
+   
+    <footer>
+    <div class="footer-main">
+    <div class="footer-logo">
+      <img src="../images/logo.png" alt="">
+    </div>
+    <div class="footer-contect-details">
+       <table>
+        <tr><th>Contact details</th></tr>
+        <tr><td><i class="fa-solid fa-envelope-circle-check"></i> Email us via Patient Portal</td></tr>
+        <tr><td><i class="fa-solid fa-phone"></i> 070-366 5090 (press 1 in case of emergency)</td></tr>
+        <tr><td><i class="fa-solid fa-mobile-retro"></i> 070-329 4045 fax</td></tr>
+       </table>
+    </div>
+    <div class="footer-useful-links">
+       <table>
+        <tr><th>Useful links</th></tr>
+        <tr><td><a href="#">Home doctor</a></td></tr>
+        <tr><td><a href="#">Should I go to the doctor?</a></td></tr>
+        <tr><td><a href="#">RIVM</a></td></tr>
+        <tr><td><a href="#">Positive health</a></td></tr>
+        <tr><td><a href="#">Drive safely with medication</a></td></tr>
+        <tr><td><a href="#">Flu vaccinations</a></td></tr>
+        <tr><td><a href="#">Information about medicines</a></td></tr>
+        <tr><td><a href="#">Last stage of life</a></td></tr>
+         <tr><td><a href="#">Help with dementia</a></td></tr>
+       </table>
+    </div>
+    <div class="footer-latest-news bg-secondary-blue">
+         <label>Latest news</label>
+         <ul>
+          <li style="list-style: none;"> via ThuisArts.nl</li>
+          <li>Health testing can have drawbacks</li>
+          <li>Think carefully about whether you want to take a health test.</li>
+          <li>Tick ​​removed from your skin? Pay attention to this</li>
+          <li>A tick in your skin gives you a small chance of getting a disease. Pay close attention in the first 3 months if you get a spot or ring on your skin.</li>
+          <li>Your child has spots. Could it be measles?</li>
+          <li>With chickenpox, fifth disease or another childhood illness your child may get spots. If your child has had shots, it is probably not measles.</li>
+         </ul>
+    </div>
+    </div>
+    <div class="footer-end">
+    <div class="copy-right">
+      <p>© Copyright 2025 | Praktijk.nl | Websites & E-health for GPs</p>
+
+      <p>privacy Policy  |  Complaints Procedure (SKGE)</p>
+    </div>
+    </div>
+    </footer>
+
+</body>
+<script src="../javaScript/script.js"></script>
+</html>
