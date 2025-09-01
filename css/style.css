@@ -343,7 +343,7 @@ header{
 .method-and-quality-inner{
   height: 80%;
   width: 90%;
-  background-image: url(/images/30.jpg);
+  background-image: url(images/30.jpg);
   background-size: cover;
   background-position: center;
 
@@ -428,7 +428,7 @@ header{
 .information-image{
    height: 100%;
    width: 60%;
-   background-image: url(/images/40.jpg);
+   background-image: url(images/40.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
